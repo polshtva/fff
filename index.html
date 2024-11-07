@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карточка контактов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1>Карточки контактов</h1>
+            <form class="form">
+                <input type="text" id="surname" placeholder="Введите фамилию" value="  Иванов      ">
+                <input type="text" id="name" placeholder="Введите имя">
+                <input type="text" id="patronymic" placeholder="Введите отчество">
+                <input type="tel" id="phone" placeholder="Введите телефон" pattern="7-[0-9]{3}-[0-9]{3}">
+                <div class="block-btn">
+                    <button id="addBtn">Добавить контакт</button>
+                </div>
+            </form>
+            <div class="contancts" id="contancts"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
